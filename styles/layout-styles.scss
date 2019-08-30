@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   text-align: center;
+  background: #FFFDB8;
 }
 
 ol, ul {
@@ -63,7 +64,8 @@ html, body, .main__container {
 
 .networks {
   top: 100%;
-  background: rgba(255, 200, 0, .8);
+  //background: rgba(255, 200, 0, .8);
+  background: #f0e1ab;
   display: inline-block;
   width: 100%;
   text-align: left;
@@ -145,13 +147,11 @@ html, body, .main__container {
   &__content {
     text-align: center;
     max-height: 100%;
-    overflow-y: scroll;
     padding: 1em;
     box-sizing: border-box;
 
     &__line {
       line-height: 1.5em;
-      text-align: left;
       color: #737373;
     }
 
@@ -209,6 +209,7 @@ html, body, .main__container {
   text-align: center;
 }
 
+/*
 @media screen and (min-width: 720px) {
 
   .column--responsive {
@@ -259,3 +260,4 @@ html, body, .main__container {
     position: absolute;
   }
 }
+ */

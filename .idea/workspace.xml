@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="46279cdc-7cb1-4a52-a85e-d607b52ee7dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout-styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout-styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout-styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +42,14 @@
   <component name="ProjectId" id="1QABWOuyw1mTKXiBO67JtFd3tgT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -86,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567203550849</updated>
       <workItem from="1567203553676" duration="1434000" />
-      <workItem from="1567205206856" duration="118000" />
+      <workItem from="1567205206856" duration="1150000" />
     </task>
     <servers />
   </component>
@@ -105,5 +111,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
