@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46279cdc-7cb1-4a52-a85e-d607b52ee7dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout-styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout-styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout-styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +59,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="" />
@@ -62,6 +69,9 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -89,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567203550849</updated>
       <workItem from="1567203553676" duration="1434000" />
-      <workItem from="1567205206856" duration="3119000" />
+      <workItem from="1567205206856" duration="9142000" />
     </task>
     <task id="LOCAL-00001" summary="rename home.html to index.html">
       <created>1567450192824</created>
@@ -112,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567460606751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove test">
+      <created>1567460922561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567460922561</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +153,7 @@
     <MESSAGE value="rename home.html to index.html" />
     <MESSAGE value="cname file" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="remove test" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove test" />
   </component>
 </project>

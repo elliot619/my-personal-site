@@ -56,6 +56,11 @@ html, body, .main__container {
   height: 100%;
 }
 
+hr {
+  width: 70%;
+  color: #737373;
+}
+
 .main__container {
   max-width: 1300px;
   margin: 0 auto;
@@ -79,8 +84,8 @@ html, body, .main__container {
     vertical-align: top;
 
     &__icon {
-      width: 1.5em;
-      height: 1.5em;
+      width: 2em;
+      height: 2em;
     }
   }
 }
@@ -92,7 +97,7 @@ html, body, .main__container {
 
   &:before {
     content: "@";
-    font-size: 1.7em;
+    font-size: 2.2em;
     top: 0;
   }
 }
@@ -101,8 +106,8 @@ html, body, .main__container {
   position: relative;
 
   &__avatar {
-    width: 6em;
-    height: 6em;
+    width: 12em;
+    height: 12em;
     border-radius: 50%;
     position: absolute;
     right: 1em;
@@ -124,6 +129,7 @@ html, body, .main__container {
 
     &__image {
       width: 100%;
+      height: 100%;
     }
 
     &__overlay {
@@ -143,17 +149,14 @@ html, body, .main__container {
   text-align: left;
   background: white;
   position: relative;
+  padding: 1em 5em;
 
   &__content {
     text-align: center;
     max-height: 100%;
-    padding: 1em;
     box-sizing: border-box;
-
-    &__line {
-      line-height: 1.5em;
-      color: #737373;
-    }
+    line-height: 1.5em;
+    color: #737373;
 
     &__quote {
       text-align: center;
@@ -161,6 +164,16 @@ html, body, .main__container {
       margin: 1em 0;
       font-style: italic;
       color: #252525;
+    }
+  }
+
+  &__list {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 70%;
+
+    & li {
+      margin-bottom: 1em;
     }
   }
 }
@@ -209,55 +222,27 @@ html, body, .main__container {
   text-align: center;
 }
 
-/*
-@media screen and (min-width: 720px) {
 
-  .column--responsive {
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    box-sizing: border-box;
-    margin-top: 0;
-    vertical-align: top;
+@media screen and (max-width: 720px) {
+  .email--link:before {
+    font-size: 1.7em;
   }
 
-  .description__content {
-    top: 50%;
-    -moz-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    position: absolute;
+  .networks__link__icon {
+    width: 1.5em;
+    height: 1.5em;
   }
 
+  .header__avatar {
+    width: 6em;
+    height: 6em;
+  }
 
-  .header {
-    &__banner {
-      height: 100%;
+  .description {
+    padding: 1em;
 
-      &__image {
-        height: 100%;
-      }
+    &__list {
+      max-width: 100%;
     }
-
-    &__avatar {
-      display: none;
-
-      &.description--avatar {
-        position: relative;
-        margin: 1em;
-        right: initial;
-        bottom: initial;
-        width: 7em;
-        height: 7em;
-        display: initial;
-      }
-    }
-  }
-
-  .networks {
-    top: 0;
-    left: 0;
-    position: absolute;
   }
 }
- */
