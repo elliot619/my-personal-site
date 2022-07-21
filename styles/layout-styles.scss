@@ -315,11 +315,16 @@ hr {
     height: 1.5em;
   }
 
-  .header__avatar {
-    width: 6em;
-    height: 6em;
-  }
+  .header {
+    &__banner {
+      height: 8em;
+    }
 
+    &__avatar {
+      width: 8em;
+      height: 8em;
+    }
+  }
   .description {
     padding: 1em;
 

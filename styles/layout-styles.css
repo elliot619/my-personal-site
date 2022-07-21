@@ -301,9 +301,13 @@ hr {
     height: 1.5em;
   }
 
+  .header__banner {
+    height: 8em;
+  }
+
   .header__avatar {
-    width: 6em;
-    height: 6em;
+    width: 8em;
+    height: 8em;
   }
 
   .description {
